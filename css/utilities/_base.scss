@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.7;
+  background-color: var(--color-quaternary);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
