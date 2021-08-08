@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,5 +14,16 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  // grid-template-columns: 1fr repeat(10, minmax(mix-content, 11rem)) 1fr;
+  grid-template-columns: [container-start] 1fr [center-start] repeat(10, [col-start] min-max(min-content, 11rem) [col-end]) [center-end] 1fr [container-end];
+  grid-template-rows: 100vh repeat(8, min-content);
 }
+
+ 
+/* ====== Main Styling ====== */
+
+header#header {
+  background-color: var(--color-primary);
+  
+}
+ 
