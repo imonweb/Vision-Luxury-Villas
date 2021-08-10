@@ -1,7 +1,9 @@
-/* ====== Main Styling ====== */
+ 
+/* ====== Villas Section ====== */
 
-header#header {
+section#villas {
   background-color: var(--color-primary);
   grid-column: container-start / container-end;
- 
+  height: 400px;
 }
+ 

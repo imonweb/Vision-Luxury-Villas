@@ -19,7 +19,7 @@ body {
 }
 
 .container > * {
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 /*********************************************** Utility Components  *************************************************/
@@ -57,11 +57,41 @@ header#header {
 section#booking-content {
   background-color: var(--color-secondary);
   grid-column: center-start / col-end 6;
+  height: 400px;
 }
 
 /* ====== Booking Date ====== */
 section#booking-date {
   background-color: var(--color-tertiary);
   grid-column: col-start 7 / center-end;
+  height: 400px;
+}
+
+/* ====== Villas Section ====== */
+section#villas {
+  background-color: var(--color-primary);
+  grid-column: container-start / container-end;
+  height: 400px;
+}
+
+/* ====== Motto ====== */
+section#motto {
+  background-color: var(--color-secondary);
+  grid-column: container-start / container-end;
+  height: 400px;
+}
+
+/* ====== Events Content ====== */
+section#events-content {
+  background-color: var(--color-tertiary);
+  grid-column: container-start / container-end;
+  height: 400px;
+}
+
+/* ====== Events Text ====== */
+section#events-text {
+  background-color: var(--color-primary);
+  grid-column: col-start 10 / center-end;
+  height: 400px;
 }
 /*# sourceMappingURL=main.css.map */
