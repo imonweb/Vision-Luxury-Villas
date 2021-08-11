@@ -1,0 +1,8 @@
+ 
+/* ====== Footer ====== */
+
+section#footer {
+  background-color: var(--color-primary);
+  grid-column: container-start / container-end;
+  height: 400px;
+}

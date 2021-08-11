@@ -94,4 +94,46 @@ section#events-text {
   grid-column: col-start 10 / center-end;
   height: 400px;
 }
+
+/* ====== Gallery Text ====== */
+section#gallery-text {
+  background-color: var(--color-primary);
+  grid-column: center-start / center-end 1;
+  height: 400px;
+}
+
+/* ====== Gallery carousel ====== */
+section#gallery-carousel {
+  background-color: var(--color-primary);
+  grid-column: col-start 2 / container-end;
+  height: 400px;
+}
+
+/* ====== features Content ====== */
+section#features-content {
+  background-color: var(--color-primary);
+  grid-column: container-start / col-end 9;
+  height: 400px;
+}
+
+/* ====== featurers Content ====== */
+section#features-text {
+  background-color: var(--color-secondary);
+  grid-column: col-start 10 / center-end;
+  height: 400px;
+}
+
+/* ====== Testimonials ====== */
+section#testimonials {
+  background-color: var(--color-tertiary);
+  grid-column: center-start / center-end;
+  height: 400px;
+}
+
+/* ====== Footer ====== */
+section#footer {
+  background-color: var(--color-primary);
+  grid-column: container-start / container-end;
+  height: 400px;
+}
 /*# sourceMappingURL=main.css.map */

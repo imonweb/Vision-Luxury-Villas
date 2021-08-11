@@ -1,0 +1,8 @@
+ 
+/* ====== Gallery carousel ====== */
+
+section#gallery-carousel {
+  background-color: var(--color-primary);
+  grid-column: col-start 2 / container-end;
+  height: 400px;
+}
