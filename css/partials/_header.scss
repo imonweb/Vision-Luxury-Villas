@@ -1,7 +1,50 @@
 /* ====== Main Styling ====== */
 
 header#header {
-  background-color: var(--color-primary);
+  // background-color: var(--color-primary);
   grid-column: container-start / container-end;
- 
+  background: linear-gradient(var(--color-primary-m-light),var(--color-primary-m-light)), url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*  Nav */
+.header__main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.header__main-nav input[type=checkbox] {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  height: 5rem;
+  width: 5rem;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+/*  Hamburger menu */
+.header__main-nav--hamburger {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  height: 5rem;
+  width: 5rem;
+  padding: 1rem;
+  background-color: var(--color-secondary);
+  z-index: 2;
+
+  display: grid;
+  place-items: center;
+}
+
+/*  Hamburger Lines */
+.header__main-nav--hamburger > div {
+  position: relative;
+  height: 0
 }
