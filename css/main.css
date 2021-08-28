@@ -120,7 +120,33 @@ header#header {
 /*  Hamburger Lines */
 .header__main-nav--hamburger > div {
   position: relative;
-  height: 0;
+  height: 0.3rem;
+  width: 100%;
+  background-color: var(--color-quaternary);
+  display: grid;
+  place-items: center;
+  transition: all var(--transition-duration) ease-in-out;
+}
+
+/*  Hamburger Top and Bottom lines */
+.header__main-nav--hamburger > div::before,
+.header__main-nav--hamburger > div::after {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  width: 60%;
+  height: inherit;
+  background-color: inherit;
+  z-index: 2;
+}
+
+.header__main-nav--hamburger > div::before {
+  left: 0;
+}
+
+.header__main-nav--hamburger > div::after {
+  top: 1rem;
+  right: 0;
 }
 
 /* ====== Booking Content ====== */
